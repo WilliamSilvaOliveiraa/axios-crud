@@ -28,7 +28,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="Home">
+    <div className="home">
       <h1>Últimos posts</h1>
       {posts.length === 0 ? <p>Carregando...</p> : <p>Carregou</p>}
       {posts.map((post) => (
