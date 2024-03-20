@@ -38,3 +38,8 @@
   background-color: #0e1217;
   color: #fff;
 }
+
+.centro {
+  text-align: center;
+  display: none;
+}
